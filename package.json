@@ -1,6 +1,6 @@
 {
   "name": "string-replace-all",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Replaces all matching of a pattern in a string.",
   "main": "index.js",
   "scripts": {
