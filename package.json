@@ -1,0 +1,26 @@
+{
+  "name": "string-replace-all",
+  "version": "0.0.0",
+  "description": "Replaces all matching of a pattern in a string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiljohansson/string-replace-all.git"
+  },
+  "keywords": [
+    "windows",
+    "os"
+  ],
+  "author": "Emil Johansson <emiljohansson.se@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiljohansson/string-replace-all/issues"
+  },
+  "homepage": "https://github.com/emiljohansson/string-replace-all#readme",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
