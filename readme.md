@@ -12,7 +12,7 @@ replaceAll('path/to/file', '/', '-');
 
 ## API
 
-### replaceAll(words)
+### replaceAll(str, pattern, newSubStr)
 
 Returns the modified string.
 
