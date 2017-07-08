@@ -1,8 +1,20 @@
 import test from 'ava'
 import replaceAll from './'
 
-test(t => {
+test('path', t => {
   const expected = 'path-to-file'
   const actual = replaceAll('path/to/file', '/', '-')
+  t.is(actual, expected)
+})
+
+test('remove spaces', t => {
+  const expected = 'Thequickbrownfoxjumpsoverthelazydog'
+  const actual = replaceAll('The quick brown fox jumps over the lazy dog', ' ', '')
+  t.is(actual, expected)
+})
+
+test('special characters', t => {
+  const expected = 'question!'
+  const actual = replaceAll('question?', '?', '!')
   t.is(actual, expected)
 })

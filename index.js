@@ -1,3 +1,1 @@
-'use strict'
-
-module.exports = (str, pattern, newSubStr) => str.replace(new RegExp(pattern, 'g'), newSubStr)
+module.exports = (str, pattern, newSubStr) => escape(str).replace(new RegExp(escape(pattern), 'g'), newSubStr)
