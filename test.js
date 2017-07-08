@@ -14,7 +14,7 @@ test('remove spaces', t => {
 })
 
 test('special characters', t => {
-  const expected = 'question!'
-  const actual = replaceAll('question?', '?', '!')
+  const expected = 'The quick brown fox jumps!'
+  const actual = replaceAll('The quick brown fox jumps?', '?', '!')
   t.is(actual, expected)
 })
